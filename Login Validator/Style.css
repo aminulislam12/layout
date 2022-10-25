@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(197, 196, 196);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+.loginForm {
+  width: 520px;
+  height: 350px;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: 2px 5px 10px 0px rgb(161 26 26 / 18%);
+  border-radius: 5px;
+}
+.form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  transform: translateY(40%);
+}
+h2 {
+  text-align: center;
+  transform: translateY(57px);
+  font-size: 25px;
+}
+
+input#email,
+input#password {
+  width: 85%;
+  padding: 7px;
+  transform: translateX(20px);
+  margin-bottom: 5px;
+  border: 1px solid crimson;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+label {
+  margin-left: 21px;
+}
+.btn {
+  transform: translateX(100px);
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.btn-success {
+  background-color: rgb(5, 116, 47);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn-success:hover {
+  background-color: rgb(2, 97, 38);
+}
+.lable {
+  margin-bottom: 5px;
+}

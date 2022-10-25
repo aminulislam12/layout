@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+  .main {
+    display: block;
+    width: 100%;
+  }
+  .main-content {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(114, 133, 3, 0.747);
+  }
+}
